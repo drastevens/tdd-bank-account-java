@@ -26,7 +26,7 @@ public class AccountTest {
     public void negativeDepositTest() {
         try {
             Account account = new Account();
-            account.depositFunds( -1);
+            account.depositFunds( -2);
         }
         catch (Exception ex) {
             ex.printStackTrace();
