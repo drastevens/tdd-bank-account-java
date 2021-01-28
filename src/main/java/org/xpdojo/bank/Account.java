@@ -4,10 +4,11 @@ public class Account {
     private int balance = 0;
 
     public int balance() {
-        return 0;
+        return this.balance;
     }
 
     public void depositFunds(int amount) {
         balance += amount;
     }
+
 }
