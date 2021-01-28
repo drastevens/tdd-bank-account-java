@@ -17,8 +17,8 @@ public class AccountTest {
     @Test
     public void newDepositTest() {
         Account account = new Account();
-        account.depositFunds(100);
+        account.depositFunds(200);
 
-        assertThat(account.balance()).isEqualTo(100);
+        assertThat(account.balance()).isEqualTo(200);
     }
 }
